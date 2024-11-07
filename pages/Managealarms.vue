@@ -8,8 +8,7 @@
                     </p>
                     <div class="columns my-5">
                         <!-- all box -->
-                        <div class="column  mx-4 has-background-danger-light" style="border: 1px solid #fd8f8f;
-  border-radius: 10px;">
+                        <div class="column  mx-4 has-background-danger-light br-red-10" >
                             <!-- in box -->
                             <div class="columns py-2">
                                 <div class="column has-text-centered is-1">
@@ -86,16 +85,16 @@
                         </div>
                     </div>
                     <div class="columns">
-                        <div class="column box has-background-success-light mx-4 mb-0 bg-border-green">
+                        <div class="column box has-background-danger-light mx-4 mb-0 br-red-10">
                             <div class="columns">
                                 <div class="column is-2">
                                     <img src="icons8-alarm-24.png" class="p-1 box has-background-danger" alt="">
                                 </div>
                                 <div class="column">
-                                    <p class="bg-blue-title py-3 pr-2">
+                                    <p class="br-red-10 bg-red py-3 pr-2">
                                 پیغام هشدار
                                     </p>
-                                    <div class="bg-green-h200 mt-4 p-3">
+                                    <div class="bg-red-200 mt-4 p-3">
                                         <p class="is-size-7">
                                             لورم ایپسوم متن ساختگی با تولید ...
                                         </p>
@@ -180,7 +179,18 @@
     border: 1px solid #73cbff;
     border-radius: 5px;
 }
-
+.br-red-10{
+    border: 1px solid #fd8f8f;
+  border-radius: 10px;
+}
+.bg-red{
+    background-color: #ffe6e1;
+}
+.bg-red-200{
+    height: 200px;
+    border: 1px solid #fd8f8f;
+    border-radius: 5px;
+}
 .bg-green-h200 {
     height: 200px;
     border: 1px solid #73ff73;
