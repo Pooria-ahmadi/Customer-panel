@@ -102,7 +102,7 @@
                                 تعداد دستگاه ها
                             </p>
                             <p>
-                               3
+                                3
                             </p>
                         </div>
                         <div class="is-flex is-justify-content-space-between has-background-grey-lighter p-2 my-1">
@@ -118,7 +118,7 @@
                                 تاریخ اضافه شدن
                             </p>
                             <p>
-                                1403 / 08 / 09     
+                                1403 / 08 / 09
                             </p>
                         </div>
                     </div>
@@ -152,7 +152,7 @@
                                 تعداد دستگاه ها
                             </p>
                             <p>
-                               3
+                                3
                             </p>
                         </div>
                         <div class="is-flex is-justify-content-space-between has-background-grey-lighter p-2 my-1">
@@ -168,7 +168,7 @@
                                 تاریخ اضافه شدن
                             </p>
                             <p>
-                                1403 / 08 / 09     
+                                1403 / 08 / 09
                             </p>
                         </div>
                     </div>
@@ -388,6 +388,11 @@
 </template>
 <script>
 export default {
+    head() {
+        return {
+            title: 'مدیریت کاربران',
+        }
+    },
     data() {
         return {
             showModal: false,

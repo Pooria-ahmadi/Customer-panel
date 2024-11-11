@@ -40,3 +40,12 @@
         </div>
     </div>
 </template>
+<script>
+export default{
+  head() {
+    return {
+      title: 'ثبت نام',
+    }
+  },
+}
+</script>

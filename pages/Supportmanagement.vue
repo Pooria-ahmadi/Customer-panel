@@ -67,6 +67,15 @@ export default {
     }
 }
 </script>
+<script>
+export default{
+  head() {
+    return {
+      title: 'مدیریت پشتیبانی',
+    }
+  },
+}
+</script>
 <style>
 .br-grey {
     border: 1px solid #d9d9d9;

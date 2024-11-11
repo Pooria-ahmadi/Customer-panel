@@ -462,3 +462,12 @@
   </div>
 
 </template>
+<script>
+export default{
+  head() {
+    return {
+      title: 'داشبورد',
+    }
+  },
+}
+</script>

@@ -300,6 +300,15 @@
         </div>
     </div>
 </template>
+<script>
+export default{
+  head() {
+    return {
+      title: 'مدیریت آلارم ها',
+    }
+  },
+}
+</script>
 <style>
 .bg-border-green {
     background-color: #edfff1;
