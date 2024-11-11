@@ -55,3 +55,81 @@ body {
   background-color: #8d79d1;
 }
 
+.background-section {
+  background-image: url('/Grid 1.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-box {
+  background-color: rgba(141, 121, 209, 0.8);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  width: 360px;
+}
+.singup-box {
+  background-color: rgba(141, 121, 209, 0.8);
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+.menu-container {
+  max-width: 1270px;
+  margin: 0 auto;
+}
+
+.logout-hover p{
+  color: #8D79D1;
+  position: relative;
+}
+.logout-hover:hover p {
+  color: rgb(255, 39, 11);
+}
+
+.logout-hover:hover p::after {
+  content: "";
+  position: absolute;
+  bottom: -28px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(255, 39, 11);
+  box-shadow: 0 -4px 8px rgb(253, 0, 0);
+}
+
+.menu-hover p {
+  color: #8D79D1;
+  position: relative;
+}
+
+
+
+.menu-hover:hover p {
+  color: #8D79D1;
+}
+
+.menu-hover:hover p::after {
+  content: "";
+  position: absolute;
+  bottom: -13px;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #8D79D1;
+  box-shadow: 0 -4px 8px #8D79D1;
+}
+
+
+.input {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.button.is-primary {
+  background-color: #8D79D1;
+  border: none;
+}

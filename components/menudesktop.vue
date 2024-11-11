@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="is-hidden-mobile is-hidden-tablet-only">
     <div class="menu-container w-100-z-index-2 box columns is-vcentered py-0 mt-5">
       <div class="column"></div>
-      <div class="column has-text-centered is-5">
+      <div class="column has-text-centered">
         <div class="columns">
           <div class="column">
             <NuxtLink to="/" class="menu-hover">
@@ -30,7 +30,7 @@
           </div>
         </div>
       </div>
-      <div class="column has-text-left">
+      <div class="column has-text-left is-3">
         <NuxtLink to="/login" class="logout-hover">
           <div class="is-flex is-justify-content-left pl-4">
             <img class="pl-4" src="icons8-log-out-24.png" alt="">
@@ -41,51 +41,3 @@
     </div>
   </div>
 </template>
-
-<style scoped>
-.menu-container {
-  max-width: 1270px;
-  margin: 0 auto;
-}
-
-.logout-hover p{
-  color: #8D79D1;
-  position: relative;
-}
-.logout-hover:hover p {
-  color: rgb(255, 39, 11);
-}
-
-.logout-hover:hover p::after {
-  content: "";
-  position: absolute;
-  bottom: -28px;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: rgb(255, 39, 11);
-  box-shadow: 0 -4px 8px rgb(253, 0, 0);
-}
-
-.menu-hover p {
-  color: #8D79D1;
-  position: relative;
-}
-
-
-
-.menu-hover:hover p {
-  color: #8D79D1;
-}
-
-.menu-hover:hover p::after {
-  content: "";
-  position: absolute;
-  bottom: -13px;
-  left: 0;
-  width: 100%;
-  height: 2px;
-  background-color: #8D79D1;
-  box-shadow: 0 -4px 8px #8D79D1;
-}
-</style>
